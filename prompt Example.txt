@@ -1,0 +1,189 @@
+Refined Prompts for Accurate Results:
+Basic Interaction Prompts:
+
+Greet the chatbot:
+
+"Hi, Chatbot"
+"Hello, Chatbot"
+"Hey, Chatbot"
+"How are you, Chatbot?"
+"What's up, Chatbot?"
+Ask the chatbot about its purpose:
+
+"What are you capable of doing?"
+"What can you help me with?"
+"What services do you provide?"
+
+Thank the chatbot:
+"Thank you, that helped!"
+"Thanks a lot!"
+"I really appreciate it!"
+
+Say goodbye:
+"Goodbye, Chatbot"
+"See you later, Chatbot"
+"Take care, Chatbot"
+
+Ask for help:
+"Can you help me with a recipe?"
+"Can you give me some recipe ideas?"
+"I need help with cooking. Can you suggest a recipe?"
+
+Recipe-Specific Prompts:
+
+General recipe suggestions:
+"Suggest a quick recipe I can make in under 30 minutes."
+"What’s a simple recipe for dinner?"
+"Can you recommend an easy-to-make recipe?"
+
+Meal categories:
+"Suggest a healthy recipe for lunch."
+"Give me a vegetarian recipe for dinner."
+"What are some low-calorie meals I can cook?"
+
+Specific type of meal or cuisine:
+"Give me a recipe for an Indian dish like Dal Tadka."
+"Suggest a quick and healthy breakfast recipe."
+"I want a quick pasta recipe. Can you help?"
+
+Specific recipe requests:
+"How do I make a Masala Dosa?"
+"Give me a recipe for Paneer Butter Masala."
+"What’s the recipe for Aloo Gobi?"
+"How do I make Vegetable Biryani?"
+"Give me a simple recipe for Veg Fried Rice."
+
+Ingredient-Based Prompts (To get results with ingredients):
+
+Recipe suggestions based on available ingredients:
+"What can I make with tomatoes?"
+"Suggest a recipe with paneer and spinach."
+"Can you give me a recipe using potatoes and peas?"
+
+Suggestions based on cravings:
+"I’m craving something with chocolate, what can I make?"
+"Give me a recipe with rice and chicken."
+"Suggest a recipe using cucumbers and yogurt."
+
+Time-Specific Recipe Prompts (To help users cook within a time frame):
+
+Quick cooking under time pressure:
+"What can I cook in 10 minutes?"
+"Give me a recipe that takes less than 15 minutes to prepare."
+"Can you suggest a meal I can make in 20 minutes?"
+
+Recipes for busy schedules:
+"What are some 5-minute snacks I can prepare?"
+"Give me a recipe that requires minimal cooking time."
+"Suggest a quick recipe for breakfast that I can make in under 10 minutes."
+
+Healthy Recipe Prompts:
+
+For healthy meals:
+"Give me a healthy recipe for dinner."
+"Suggest a low-carb meal I can cook."
+"What’s a good healthy lunch option?"
+"Give me a gluten-free recipe."
+
+Vegetarian or vegan options:
+"Suggest a vegan recipe I can make."
+"Give me a vegetarian recipe with tofu."
+"What are some healthy vegetarian breakfast recipes?"
+
+Basic Interaction Prompts:
+
+General recipe suggestions:
+"Suggest a quick recipe."
+"I need a recipe that can be made quickly."
+"What are some fast meals to prepare?"
+"Give me a recipe idea."
+
+Specific recipe requests:
+"How do I make Scrambled Eggs?"
+"Give me a recipe for Peanut Butter Toast."
+"What’s the recipe for Veggie Wrap?"
+"How do I make Masala Corn?"
+"Give me a recipe for Fruit Salad."
+
+Meal categories:
+"Suggest a healthy recipe."
+"What are some healthy meal ideas?"
+"Give me a recipe for a quick dinner."
+"What’s a good recipe for breakfast?"
+
+Type of meal or cuisine:
+"Give me a recipe for an Indian dish."
+"Suggest an Indian street food recipe."
+"Give me a recipe for a quick pasta dish."
+"Suggest a vegetarian recipe."
+"Give me a non-vegetarian recipe."
+
+Specific Recipe Requests:
+
+Quick Meals:
+"How do I make Pasta with Garlic Butter?"
+"Give me the recipe for Fried Rice."
+"How do I make Quick Dal Tadka?"
+
+Breakfast Ideas:
+"How do I make Oats Porridge?"
+"What’s the recipe for Banana Smoothie?"
+"Give me a recipe for Poha."
+
+Snacks and Street Food:
+"How do I make Veggie Sticks with Dip?"
+"Give me a recipe for Chaat."
+"What’s the recipe for Samosas?"
+"Give me a recipe for Pani Puri."
+
+Healthy Options:
+"Give me a healthy recipe with vegetables."
+"Suggest a healthy smoothie recipe."
+"What are some low-calorie recipes?"
+
+Quick and Easy Recipes:
+"How do I make a Cheese Sandwich?"
+"Give me a recipe for Instant Noodles."
+"What’s the recipe for Peanut Butter Toast?"
+"How do I make a Veggie Wrap?"
+
+Questions for the Chatbot:
+
+Ask about the chatbot’s capabilities:
+"What do you do?"
+"Can you give me recipes?"
+"How can you help me?"
+
+Ask for suggestions:
+"What can I cook with tomatoes?"
+"Give me a recipe with chicken."
+"What can I make with rice?"
+
+Ingredient-based requests:
+"What can I cook with potatoes?"
+"Give me a recipe with spinach."
+"Suggest a recipe with paneer."
+
+Cooking Tips and Additional Help:
+
+Ask for cooking tips:
+"How can I make scrambled eggs fluffier?"
+"How do I know when my pasta is done?"
+"What’s the best way to cook rice?"
+
+General help:
+"Can you guide me on how to cook lentils?"
+"How can I store leftovers?"
+"Give me tips for meal prep."
+
+Special Requests:
+
+Diet-specific requests:
+"Give me a vegan recipe."
+"Suggest a gluten-free recipe."
+"What’s a keto-friendly recipe?"
+
+Quick cooking under time pressure:
+"What can I cook in 10 minutes?"
+"Give me a recipe I can make in 15 minutes."
+"What’s a 5-minute snack?"

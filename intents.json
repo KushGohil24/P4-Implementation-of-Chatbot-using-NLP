@@ -1,0 +1,1236 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there! How can I assist you with cooking today?",
+            "Hello! Ready to explore some recipes?",
+            "Hey! Let’s get cooking!"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye! Happy cooking!",
+            "See you later! Let me know if you need more recipes.",
+            "Take care! Keep experimenting in the kitchen."
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome! Enjoy your meal!",
+            "No problem! Let me know if you need more recipes.",
+            "Glad I could help! Happy cooking!"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a Recipe Suggestion Bot here to help you with cooking ideas.",
+            "My purpose is to suggest recipes based on your ingredients or preferences.",
+            "I can assist you with recipes and cooking tips!"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure! Do you want recipe suggestions or help with cooking tips?",
+            "I'm here to assist you with recipes. What ingredients do you have?"
+        ]
+    },
+    {
+        "tag": "ingredients",
+        "patterns": [
+            "I have chicken and rice",
+            "What can I make with potatoes",
+            "Suggest a dish with eggs and cheese",
+            "What can I cook with tomatoes"
+        ],
+        "responses": [
+            "1. Brown chicken in a pan, then remove and set aside. 2. Onion and garlic in the same pan, add rice, spices, and chicken broth. 3. Bring to a boil, then simmer covered until liquid is absorbed and rice is cooked.",
+            "You can try making Chicken Fried Rice, Potato Wedges, or Tomato Soup! Need the recipe?",
+            "How about Egg and Cheese Omelette or Mashed Potatoes? Let me know if you want details!",
+            "Tomato-based pasta or potato curry would be great! Want the recipe?"
+        ]
+    },
+    {
+        "tag": "recipe_request",
+        "patterns": [
+            "Yes, give me the recipe",
+            "Show me how to make it",
+            "Can you share the steps?"
+        ],
+        "responses": [
+            "Here are the steps: 1. Prep the ingredients, 2. Follow the recipe instructions, 3. Enjoy your meal! Let me know if you need detailed instructions.",
+            "Sure! Let me pull up the exact recipe for you. What else do you need?"
+        ]
+    },{
+        "tag": "indian_breakfast",
+        "patterns": [
+            "Suggest an Indian breakfast recipe",
+            "What’s a popular Indian breakfast?",
+            "Any Indian breakfast ideas?"
+        ],
+        "responses": [
+            "Try Masala Dosa, Poha, or Aloo Paratha. Let me know which one you’d like the recipe for!",
+            "You can make Upma, Idli-Sambar, or Chole Bhature. Need details on any of these?"
+        ]
+    },
+    {
+        "tag": "masala_dosa_recipe",
+        "patterns": [
+            "How do I make Masala Dosa?",
+            "What’s the recipe for Masala Dosa?"
+        ],
+        "responses": [
+            "To make Masala Dosa: 1. Prepare a fermented batter with rice and urad dal. 2. Cook dosas on a hot skillet. 3. Fill with a spiced potato mixture made from boiled potatoes, onions, and Indian spices. Serve with chutney and sambar."
+        ]
+    },
+    {
+        "tag": "poha_recipe",
+        "patterns": [
+            "How do I make Poha?",
+            "What’s the recipe for Poha?"
+        ],
+        "responses": [
+            "To make Poha: 1. Rinse flattened rice and set aside. 2. Sauté mustard seeds, curry leaves, green chilies, and onions. 3. Add turmeric and the poha. Mix well and garnish with fresh coriander and lemon juice."
+        ]
+    },
+    {
+        "tag": "indian_lunch",
+        "patterns": [
+            "Suggest an Indian lunch recipe",
+            "What’s a popular Indian lunch dish?",
+            "Any ideas for Indian lunch?"
+        ],
+        "responses": [
+            "You can try Paneer Butter Masala, Dal Tadka, or Biryani. Let me know which one you’d like!",
+            "Popular options include Rajma-Chawal, Butter Chicken, and Palak Paneer. Want a recipe for any of these?"
+        ]
+    },
+    {
+        "tag": "biryani_recipe",
+        "patterns": [
+            "How do I make Biryani?",
+            "What’s the recipe for Biryani?"
+        ],
+        "responses": [
+            "To make Biryani: 1. Cook basmati rice with whole spices. 2. Layer it with a spiced chicken or vegetable curry. 3. Add saffron-infused milk and cook on low heat (dum). Serve with raita."
+        ]
+    },
+    {
+        "tag": "dal_tadka_recipe",
+        "patterns": [
+            "How do I make Dal Tadka?",
+            "What’s the recipe for Dal Tadka?"
+        ],
+        "responses": [
+            "To make Dal Tadka: 1. Boil toor dal (split pigeon peas) with turmeric. 2. In a pan, temper ghee with mustard seeds, garlic, cumin, and red chilies. 3. Pour the tempering over the dal and garnish with coriander."
+        ]
+    },
+    {
+        "tag": "indian_dinner",
+        "patterns": [
+            "Suggest an Indian dinner recipe",
+            "What’s a popular Indian dinner dish?",
+            "Any ideas for Indian dinner?"
+        ],
+        "responses": [
+            "Try Butter Naan with Paneer Tikka Masala, Roti with Baingan Bharta, or Jeera Rice with Rajma. Want a recipe for any of these?",
+            "Popular dinner options include Aloo Gobhi, Chicken Curry, and Matar Paneer. Need details?"
+        ]
+    },
+    {
+        "tag": "paneer_tikka_masala_recipe",
+        "patterns": [
+            "How do I make Paneer Tikka Masala?",
+            "What’s the recipe for Paneer Tikka Masala?"
+        ],
+        "responses": [
+            "To make Paneer Tikka Masala: 1. Marinate paneer cubes in yogurt and spices, then grill or fry. 2. Prepare a rich tomato-based curry with onions, ginger, garlic, and cream. 3. Add the grilled paneer and simmer. Serve with naan or rice."
+        ]
+    },
+    {
+        "tag": "chicken_curry_recipe",
+        "patterns": [
+            "How do I make Chicken Curry?",
+            "What’s the recipe for Chicken Curry?"
+        ],
+        "responses": [
+            "To make Chicken Curry: 1. Marinate chicken in yogurt, turmeric, and spices. 2. Sauté onions, garlic, and ginger in oil. 3. Add tomatoes, garam masala, and the chicken. Cook until tender and serve with rice or roti."
+        ]
+    },
+    {
+        "tag": "indian_snacks",
+        "patterns": [
+            "Suggest an Indian snack",
+            "What’s a popular Indian snack?",
+            "Any ideas for Indian snacks?"
+        ],
+        "responses": [
+            "Try Samosas, Kachoris, or Pani Puri. Want a recipe for any of these?",
+            "How about Pakoras, Dhokla, or Aloo Tikki? Let me know which one interests you!"
+        ]
+    },
+    {
+        "tag": "pani_puri_recipe",
+        "patterns": [
+            "How do I make Pani Puri?",
+            "What’s the recipe for Pani Puri?"
+        ],
+        "responses": [
+            "To make Pani Puri: 1. Prepare puris (or buy ready-made ones). 2. Make spicy and tangy water using tamarind, mint, and spices. 3. Fill puris with spiced mashed potatoes and serve with the flavored water."
+        ]
+    },
+    {
+        "tag": "pakoras_recipe",
+        "patterns": [
+            "How do I make Pakoras?",
+            "What’s the recipe for Pakoras?"
+        ],
+        "responses": [
+            "To make Pakoras: 1. Mix gram flour with water, spices, and veggies like onion or spinach. 2. Dip slices of veggies in the batter and deep fry. Serve with chutney."
+        ]
+    },
+    {
+        "tag": "indian_desserts",
+        "patterns": [
+            "Suggest an Indian dessert",
+            "What’s a popular Indian dessert?",
+            "Any ideas for Indian sweets?"
+        ],
+        "responses": [
+            "You can try Gulab Jamun, Jalebi, or Rasgulla. Need a recipe for any of these?",
+            "How about Kheer, Laddoos, or Malpua? Let me know which one you’d like!"
+        ]
+    },
+    {
+        "tag": "gulab_jamun_recipe",
+        "patterns": [
+            "How do I make Gulab Jamun?",
+            "What’s the recipe for Gulab Jamun?"
+        ],
+        "responses": [
+            "To make Gulab Jamun: 1. Knead milk powder, flour, and ghee into a dough. 2. Shape into balls and deep fry. 3. Soak in sugar syrup flavored with cardamom and rose water."
+        ]
+    },
+    {
+        "tag": "jalebi_recipe",
+        "patterns": [
+            "How do I make Jalebi?",
+            "What’s the recipe for Jalebi?"
+        ],
+        "responses": [
+            "To make Jalebi: 1. Prepare a batter with flour, yogurt, and water. 2. Ferment it overnight. 3. Pipe spirals into hot oil and fry. 4. Soak in sugar syrup flavored with saffron and cardamom."
+        ]
+    },
+    {
+        "tag": "unique_indian_breakfast",
+        "patterns": [
+            "Suggest a unique Indian breakfast recipe",
+            "Can you tell me an unusual Indian breakfast idea?",
+            "I want to try a different Indian breakfast"
+        ],
+        "responses": [
+            "You can try Misal Pav, Moong Dal Cheela, or Bhutte ka Kees. Let me know which recipe you’d like to see!",
+            "How about Kanda Poha with a twist or Sprouted Ragi Idlis? Interested in any?"
+        ]
+    },
+    {
+        "tag": "misal_pav_recipe",
+        "patterns": [
+            "How do I make Misal Pav?",
+            "What’s the recipe for Misal Pav?"
+        ],
+        "responses": [
+            "To make Misal Pav: 1. Cook sprouted moth beans (matki) in a spicy curry made with onions, tomatoes, and goda masala. 2. Serve with soft pav (bread rolls), topped with farsan (savory mixture), chopped onions, and lemon."
+        ]
+    },
+    {
+        "tag": "bhutte_ka_kees_recipe",
+        "patterns": [
+            "How do I make Bhutte ka Kees?",
+            "What’s the recipe for Bhutte ka Kees?"
+        ],
+        "responses": [
+            "To make Bhutte ka Kees: 1. Grate fresh corn and cook it with ghee, mustard seeds, green chilies, and ginger. 2. Add milk and let it simmer until creamy. Garnish with coriander and serve hot."
+        ]
+    },
+    {
+        "tag": "unique_indian_lunch",
+        "patterns": [
+            "Suggest a unique Indian lunch recipe",
+            "What’s an unusual Indian lunch idea?",
+            "I want a unique Indian lunch dish"
+        ],
+        "responses": [
+            "You can try Gatte ki Sabzi, Undhiyu, or Rajasthani Ker Sangri. Let me know which one you’d like!",
+            "How about Pindi Chana or Bharwan Tinda? Want a recipe for any of these?"
+        ]
+    },
+    {
+        "tag": "gatte_ki_sabzi_recipe",
+        "patterns": [
+            "How do I make Gatte ki Sabzi?",
+            "What’s the recipe for Gatte ki Sabzi?"
+        ],
+        "responses": [
+            "To make Gatte ki Sabzi: 1. Mix besan (gram flour) with spices and water to make dough. Shape into cylinders and boil until firm. 2. Slice and cook in a tangy yogurt-based curry. Serve with roti or rice."
+        ]
+    },
+    {
+        "tag": "ker_sangri_recipe",
+        "patterns": [
+            "How do I make Ker Sangri?",
+            "What’s the recipe for Ker Sangri?"
+        ],
+        "responses": [
+            "To make Ker Sangri: 1. Soak dried ker berries and sangri beans overnight. 2. Cook them with mustard oil, whole spices, yogurt, and a blend of Rajasthani masalas. Serve with bajra roti."
+        ]
+    },
+    {
+        "tag": "unique_indian_dinner",
+        "patterns": [
+            "Suggest a unique Indian dinner recipe",
+            "What’s an unusual Indian dinner idea?",
+            "I want a unique Indian dinner dish"
+        ],
+        "responses": [
+            "Try Makki ki Roti with Sarson ka Saag, Chokha with Litti, or Thepla with Chundo. Interested in any of these?",
+            "How about Khar (Assamese specialty) or Baans Ka Sabzi (Bamboo Shoot Curry)? Let me know!"
+        ]
+    },
+    {
+        "tag": "litti_chokha_recipe",
+        "patterns": [
+            "How do I make Litti Chokha?",
+            "What’s the recipe for Litti Chokha?"
+        ],
+        "responses": [
+            "To make Litti Chokha: 1. Make litti balls from wheat flour stuffed with sattu, mustard oil, and spices. Bake or roast them. 2. Prepare chokha with roasted eggplants, tomatoes, and mashed potatoes mixed with mustard oil and spices. Serve together."
+        ]
+    },
+    {
+        "tag": "sarson_ka_saag_recipe",
+        "patterns": [
+            "How do I make Sarson ka Saag?",
+            "What’s the recipe for Sarson ka Saag?"
+        ],
+        "responses": [
+            "To make Sarson ka Saag: 1. Cook mustard greens, spinach, and bathua with green chilies and ginger. 2. Mash the greens and temper with ghee, garlic, and makki flour. Serve with Makki ki Roti."
+        ]
+    },
+    {
+        "tag": "unique_indian_snacks",
+        "patterns": [
+            "Suggest a unique Indian snack",
+            "What’s an unusual Indian snack?",
+            "I want a unique Indian snack recipe"
+        ],
+        "responses": [
+            "Try Dabeli, Bhel Puri with a twist, or Moong Dal Pakoras. Need a recipe for any of these?",
+            "How about Bhakarwadi, Mirchi Bajji, or Banana Chips with Indian spices? Let me know!"
+        ]
+    },
+    {
+        "tag": "dabeli_recipe",
+        "patterns": [
+            "How do I make Dabeli?",
+            "What’s the recipe for Dabeli?"
+        ],
+        "responses": [
+            "To make Dabeli: 1. Prepare a potato mixture with dabeli masala and tamarind chutney. 2. Spread it inside pav (bun) and top with pomegranate, peanuts, and sev. Grill lightly and serve."
+        ]
+    },
+    {
+        "tag": "bhakarwadi_recipe",
+        "patterns": [
+            "How do I make Bhakarwadi?",
+            "What’s the recipe for Bhakarwadi?"
+        ],
+        "responses": [
+            "To make Bhakarwadi: 1. Roll a spiced gram flour filling into dough sheets. 2. Roll tightly, slice into spirals, and deep fry. Enjoy with tea."
+        ]
+    },
+    {
+        "tag": "unique_indian_desserts",
+        "patterns": [
+            "Suggest a unique Indian dessert",
+            "What’s an unusual Indian sweet?",
+            "I want a unique Indian dessert recipe"
+        ],
+        "responses": [
+            "You can try Shrikhand, Sandesh, or Makhana Kheer. Interested in any of these?",
+            "How about Ghevar, Seviyan Payasam, or Mysore Pak? Need a recipe?"
+        ]
+    },
+    {
+        "tag": "ghevar_recipe",
+        "patterns": [
+            "How do I make Ghevar?",
+            "What’s the recipe for Ghevar?"
+        ],
+        "responses": [
+            "To make Ghevar: 1. Mix flour with water, milk, and ghee to create a batter. 2. Deep fry in ghee to form a honeycomb-like disc. 3. Soak in sugar syrup and top with rabri and nuts."
+        ]
+    },
+    {
+        "tag": "makhana_kheer_recipe",
+        "patterns": [
+            "How do I make Makhana Kheer?",
+            "What’s the recipe for Makhana Kheer?"
+        ],
+        "responses": [
+            "To make Makhana Kheer: 1. Roast fox nuts (makhana) in ghee. 2. Boil milk and add the roasted makhana, sugar, and cardamom. Cook until thickened and garnish with nuts."
+        ]
+    }, 
+    {
+        "tag": "indian_street_food",
+        "patterns": [
+            "Suggest an Indian street food",
+            "Can you recommend some Indian street food?",
+            "I want to try Indian street food"
+        ],
+        "responses": [
+            "You can try Pani Puri, Pav Bhaji, or Dahi Puri. Need a recipe for any of these?",
+            "How about Vada Pav, Chole Bhature, or Kathi Rolls? Let me know if you want to know more!"
+        ]
+    },
+    {
+        "tag": "pani_puri_recipe",
+        "patterns": [
+            "How do I make Pani Puri?",
+            "What’s the recipe for Pani Puri?"
+        ],
+        "responses": [
+            "To make Pani Puri: 1. Prepare crispy puris and spicy, tangy water using tamarind, mint, and spices. 2. Fill puris with spiced mashed potatoes, chickpeas, and the tangy water. Enjoy immediately!"
+        ]
+    },
+    {
+        "tag": "vada_pav_recipe",
+        "patterns": [
+            "How do I make Vada Pav?",
+            "What’s the recipe for Vada Pav?"
+        ],
+        "responses": [
+            "To make Vada Pav: 1. Prepare spiced mashed potato balls, coat them in gram flour batter, and deep fry. 2. Place them inside a pav (bun) with chutneys and fried green chilies. Serve hot."
+        ]
+    },
+    {
+        "tag": "pav_bhaji_recipe",
+        "patterns": [
+            "How do I make Pav Bhaji?",
+            "What’s the recipe for Pav Bhaji?"
+        ],
+        "responses": [
+            "To make Pav Bhaji: 1. Mash boiled vegetables (potatoes, peas, cauliflower) and cook them with onions, tomatoes, and pav bhaji masala. 2. Serve with buttered pav and lemon wedges."
+        ]
+    },
+    {
+        "tag": "north_indian_street_food",
+        "patterns": [
+            "Suggest a North Indian street food",
+            "What are some street foods from North India?",
+            "I want to try North Indian street food"
+        ],
+        "responses": [
+            "You can try Chole Bhature, Aloo Tikki, or Bedmi Puri. Interested in any of these?",
+            "How about Ram Ladoo or Kachori? Let me know if you need recipes!"
+        ]
+    },
+    {
+        "tag": "chole_bhature_recipe",
+        "patterns": [
+            "How do I make Chole Bhature?",
+            "What’s the recipe for Chole Bhature?"
+        ],
+        "responses": [
+            "To make Chole Bhature: 1. Cook chickpeas with a blend of spices, onions, and tomatoes to make chole. 2. Prepare bhature by deep-frying fermented flour dough. Serve together."
+        ]
+    },
+    {
+        "tag": "ram_ladoo_recipe",
+        "patterns": [
+            "How do I make Ram Ladoo?",
+            "What’s the recipe for Ram Ladoo?"
+        ],
+        "responses": [
+            "To make Ram Ladoo: 1. Make a batter with soaked lentils (moong dal and chana dal), ginger, and spices. 2. Deep fry small fritters and top with grated radish, tamarind chutney, and green chutney."
+        ]
+    },
+    {
+        "tag": "south_indian_street_food",
+        "patterns": [
+            "Suggest a South Indian street food",
+            "What are some street foods from South India?",
+            "I want to try South Indian street food"
+        ],
+        "responses": [
+            "Try Dosa with Coconut Chutney, Medu Vada, or Kaima Idli. Interested in a recipe for any of these?",
+            "How about Puttu, Appam, or Uthappam? Let me know if you want a recipe!"
+        ]
+    },
+    {
+        "tag": "medu_vada_recipe",
+        "patterns": [
+            "How do I make Medu Vada?",
+            "What’s the recipe for Medu Vada?"
+        ],
+        "responses": [
+            "To make Medu Vada: 1. Soak urad dal and grind it into a smooth batter with spices. 2. Shape into donuts and deep fry until golden brown. Serve with sambhar and coconut chutney."
+        ]
+    },
+    {
+        "tag": "kaima_idli_recipe",
+        "patterns": [
+            "How do I make Kaima Idli?",
+            "What’s the recipe for Kaima Idli?"
+        ],
+        "responses": [
+            "To make Kaima Idli: 1. Cut idlis into cubes and fry them. 2. Toss with onions, tomatoes, and spices like garam masala and red chili powder for a spicy street-style dish."
+        ]
+    },
+    {
+        "tag": "west_indian_street_food",
+        "patterns": [
+            "Suggest a West Indian street food",
+            "What are some street foods from West India?",
+            "I want to try West Indian street food"
+        ],
+        "responses": [
+            "You can try Dabeli, Khandvi, or Ragda Pattice. Let me know if you want a recipe!",
+            "How about Sev Puri or Khakhra Pizza? Interested in any of these?"
+        ]
+    },
+    {
+        "tag": "ragda_pattice_recipe",
+        "patterns": [
+            "How do I make Ragda Pattice?",
+            "What’s the recipe for Ragda Pattice?"
+        ],
+        "responses": [
+            "To make Ragda Pattice: 1. Make pattice (potato patties) and cook ragda (white peas curry) separately. 2. Serve the pattice topped with ragda, chutneys, onions, and sev."
+        ]
+    },
+    {
+        "tag": "khandvi_recipe",
+        "patterns": [
+            "How do I make Khandvi?",
+            "What’s the recipe for Khandvi?"
+        ],
+        "responses": [
+            "To make Khandvi: 1. Cook a smooth batter with gram flour, yogurt, and spices. 2. Spread thinly, roll up, and garnish with mustard seeds, curry leaves, and coconut."
+        ]
+    },
+    {
+        "tag": "east_indian_street_food",
+        "patterns": [
+            "Suggest an East Indian street food",
+            "What are some street foods from East India?",
+            "I want to try East Indian street food"
+        ],
+        "responses": [
+            "Try Puchka, Ghugni Chaat, or Jhal Muri. Want a recipe for any of these?",
+            "How about Momos or Singhara? Let me know if you want the details!"
+        ]
+    },
+    {
+        "tag": "jhal_muri_recipe",
+        "patterns": [
+            "How do I make Jhal Muri?",
+            "What’s the recipe for Jhal Muri?"
+        ],
+        "responses": [
+            "To make Jhal Muri: 1. Mix puffed rice with mustard oil, roasted peanuts, chopped onions, green chilies, and a pinch of chaat masala. Serve fresh."
+        ]
+    },
+    {
+        "tag": "puchka_recipe",
+        "patterns": [
+            "How do I make Puchka?",
+            "What’s the recipe for Puchka?"
+        ],
+        "responses": [
+            "To make Puchka: 1. Prepare hollow puris and fill them with a tangy mixture of tamarind water, boiled potatoes, black chickpeas, and spices. Serve immediately."
+        ]
+    },
+    {
+        "tag": "healthy_recipes",
+        "patterns": [
+            "Suggest a healthy recipe",
+            "What are some healthy food options?",
+            "I want a recipe for healthy food"
+        ],
+        "responses": [
+            "You can try Quinoa Salad, Vegetable Stir-fry, or Lentil Soup. Interested in any of these?",
+            "How about Avocado Toast, Smoothie Bowl, or Grilled Chicken Salad? Let me know if you’d like the recipe!"
+        ]
+    },
+    {
+        "tag": "quinoa_salad_recipe",
+        "patterns": [
+            "How do I make Quinoa Salad?",
+            "What’s the recipe for Quinoa Salad?"
+        ],
+        "responses": [
+            "To make Quinoa Salad: 1. Cook quinoa and let it cool. 2. Toss with diced vegetables (tomatoes, cucumbers, bell peppers), chickpeas, olive oil, lemon juice, and season with salt and pepper. Enjoy!"
+        ]
+    },
+    {
+        "tag": "lentil_soup_recipe",
+        "patterns": [
+            "How do I make Lentil Soup?",
+            "What’s the recipe for Lentil Soup?"
+        ],
+        "responses": [
+            "To make Lentil Soup: 1. Sauté onions, carrots, and celery. 2. Add lentils, vegetable stock, and spices like cumin and turmeric. 3. Simmer until lentils are tender and serve warm."
+        ]
+    },
+    {
+        "tag": "smoothie_bowl_recipe",
+        "patterns": [
+            "How do I make a Smoothie Bowl?",
+            "What’s the recipe for a Smoothie Bowl?"
+        ],
+        "responses": [
+            "To make a Smoothie Bowl: 1. Blend frozen fruits (banana, berries) with almond milk or yogurt until thick. 2. Pour into a bowl and top with granola, fresh fruits, and chia seeds."
+        ]
+    },
+    {
+        "tag": "vegetarian_healthy_recipes",
+        "patterns": [
+            "Suggest a healthy vegetarian recipe",
+            "I want a healthy vegetarian recipe",
+            "What are some vegetarian healthy foods?"
+        ],
+        "responses": [
+            "Try Buddha Bowl, Spinach and Paneer Salad, or Broccoli Soup. Let me know which one you’d like to try!",
+            "How about Sweet Potato Toast or Grilled Zucchini Rolls? Interested in a recipe?"
+        ]
+    },
+    {
+        "tag": "buddha_bowl_recipe",
+        "patterns": [
+            "How do I make a Buddha Bowl?",
+            "What’s the recipe for Buddha Bowl?"
+        ],
+        "responses": [
+            "To make a Buddha Bowl: 1. Layer cooked quinoa or rice, roasted vegetables, chickpeas, and fresh greens. 2. Drizzle with tahini dressing and sprinkle with sesame seeds."
+        ]
+    },
+    {
+        "tag": "spinach_paneer_salad_recipe",
+        "patterns": [
+            "How do I make Spinach and Paneer Salad?",
+            "What’s the recipe for Spinach and Paneer Salad?"
+        ],
+        "responses": [
+            "To make Spinach and Paneer Salad: 1. Toss fresh spinach leaves with grilled paneer cubes, cherry tomatoes, and a light olive oil dressing. 2. Sprinkle with sunflower seeds for crunch."
+        ]
+    },
+    {
+        "tag": "low_calorie_recipes",
+        "patterns": [
+            "Suggest a low-calorie recipe",
+            "I want a recipe for low-calorie food",
+            "What are some low-calorie meals?"
+        ],
+        "responses": [
+            "You can try Zucchini Noodles, Grilled Fish, or Cucumber Salad. Need a recipe for any of these?",
+            "How about Steamed Vegetables or Clear Vegetable Soup? Let me know which one interests you!"
+        ]
+    },
+    {
+        "tag": "zucchini_noodles_recipe",
+        "patterns": [
+            "How do I make Zucchini Noodles?",
+            "What’s the recipe for Zucchini Noodles?"
+        ],
+        "responses": [
+            "To make Zucchini Noodles: 1. Spiralize zucchini into noodle shapes. 2. Sauté lightly in olive oil and garlic. 3. Add your favorite low-calorie sauce or toppings."
+        ]
+    },
+    {
+        "tag": "cucumber_salad_recipe",
+        "patterns": [
+            "How do I make Cucumber Salad?",
+            "What’s the recipe for Cucumber Salad?"
+        ],
+        "responses": [
+            "To make Cucumber Salad: 1. Slice cucumbers thinly. 2. Toss with yogurt, mint, lemon juice, and a pinch of salt. Chill before serving."
+        ]
+    },
+    {
+        "tag": "high_protein_recipes",
+        "patterns": [
+            "Suggest a high-protein recipe",
+            "What are some protein-rich meals?",
+            "I want a high-protein recipe"
+        ],
+        "responses": [
+            "You can try Grilled Chicken Breast, Chickpea Salad, or Egg White Omelette. Need a recipe?",
+            "How about Tofu Stir-fry or Lentil and Spinach Curry? Let me know which one you'd like!"
+        ]
+    },
+    {
+        "tag": "chickpea_salad_recipe",
+        "patterns": [
+            "How do I make Chickpea Salad?",
+            "What’s the recipe for Chickpea Salad?"
+        ],
+        "responses": [
+            "To make Chickpea Salad: 1. Toss cooked chickpeas with diced cucumbers, onions, tomatoes, olive oil, lemon juice, and parsley. Season with salt and pepper."
+        ]
+    },
+    {
+        "tag": "lentil_spinach_curry_recipe",
+        "patterns": [
+            "How do I make Lentil and Spinach Curry?",
+            "What’s the recipe for Lentil and Spinach Curry?"
+        ],
+        "responses": [
+            "To make Lentil and Spinach Curry: 1. Cook lentils with onions, garlic, and curry spices. 2. Add fresh spinach and simmer until wilted. Serve with rice or roti."
+        ]
+    },{
+        "tag": "quick_recipes",
+        "patterns": [
+            "Suggest a quick recipe",
+            "I need a recipe that can be made quickly",
+            "What are some fast meals to prepare?"
+        ],
+        "responses": [
+            "How about Scrambled Eggs, Peanut Butter Toast, or Veggie Wraps? Let me know if you'd like a recipe for any of these!",
+            "Try Grilled Cheese Sandwich, Instant Noodles with Veggies, or Fruit Yogurt Bowl. Which one sounds good to you?"
+        ]
+    },
+    {
+        "tag": "scrambled_eggs_recipe",
+        "patterns": [
+            "How do I make Scrambled Eggs?",
+            "What’s the recipe for Scrambled Eggs?"
+        ],
+        "responses": [
+            "To make Scrambled Eggs: 1. Whisk 2-3 eggs with a pinch of salt. 2. Heat a pan with a bit of butter. 3. Pour in the eggs and stir gently until cooked. Serve with toast!"
+        ]
+    },
+    {
+        "tag": "peanut_butter_toast_recipe",
+        "patterns": [
+            "How do I make Peanut Butter Toast?",
+            "What’s the recipe for Peanut Butter Toast?"
+        ],
+        "responses": [
+            "To make Peanut Butter Toast: 1. Toast bread slices. 2. Spread peanut butter generously. 3. Top with sliced bananas, a drizzle of honey, or a sprinkle of chia seeds."
+        ]
+    },
+    {
+        "tag": "veggie_wrap_recipe",
+        "patterns": [
+            "How do I make a Veggie Wrap?",
+            "What’s the recipe for a Veggie Wrap?"
+        ],
+        "responses": [
+            "To make a Veggie Wrap: 1. Spread hummus or mayonnaise on a tortilla. 2. Add shredded carrots, lettuce, cucumber slices, and any other veggies. 3. Roll it up and enjoy!"
+        ]
+    },
+    {
+        "tag": "10_minute_snacks",
+        "patterns": [
+            "What snacks can I make in 10 minutes?",
+            "Suggest a quick snack recipe",
+            "I want a recipe for a quick snack"
+        ],
+        "responses": [
+            "Try Popcorn, Mixed Nuts with Dried Fruits, or Cheese and Crackers. Need help with any of these?",
+            "How about Masala Corn, Fruit Salad, or Veggie Sticks with Dip? Let me know!"
+        ]
+    },
+    {
+        "tag": "masala_corn_recipe",
+        "patterns": [
+            "How do I make Masala Corn?",
+            "What’s the recipe for Masala Corn?"
+        ],
+        "responses": [
+            "To make Masala Corn: 1. Boil corn kernels. 2. Mix with butter, salt, chaat masala, and a squeeze of lemon. Serve warm."
+        ]
+    },
+    {
+        "tag": "fruit_salad_recipe",
+        "patterns": [
+            "How do I make Fruit Salad?",
+            "What’s the recipe for Fruit Salad?"
+        ],
+        "responses": [
+            "To make Fruit Salad: 1. Chop a variety of fruits like apples, bananas, and berries. 2. Toss with a drizzle of honey and a sprinkle of chia seeds. Serve chilled."
+        ]
+    },
+    {
+        "tag": "veggie_sticks_dip_recipe",
+        "patterns": [
+            "How do I make Veggie Sticks with Dip?",
+            "What’s the recipe for Veggie Sticks and Dip?"
+        ],
+        "responses": [
+            "To make Veggie Sticks with Dip: 1. Cut carrots, cucumbers, and bell peppers into sticks. 2. Serve with hummus, ranch, or yogurt dip."
+        ]
+    },
+    {
+        "tag": "quick_dinners",
+        "patterns": [
+            "What’s a quick dinner recipe?",
+            "Suggest a recipe for dinner I can make quickly",
+            "I need a fast dinner idea"
+        ],
+        "responses": [
+            "How about Pasta with Garlic Butter, Fried Rice, or a Grilled Chicken Salad? Interested in a recipe?",
+            "Try Stir-Fried Vegetables, Omelette Curry, or Quick Dal Tadka. Let me know which one you’d like!"
+        ]
+    },
+    {
+        "tag": "pasta_garlic_butter_recipe",
+        "patterns": [
+            "How do I make Pasta with Garlic Butter?",
+            "What’s the recipe for Pasta with Garlic Butter?"
+        ],
+        "responses": [
+            "To make Pasta with Garlic Butter: 1. Cook pasta and set aside. 2. Sauté minced garlic in butter, add chili flakes, and toss the pasta in. Garnish with parsley and serve!"
+        ]
+    },
+    {
+        "tag": "fried_rice_recipe",
+        "patterns": [
+            "How do I make Fried Rice?",
+            "What’s the recipe for Fried Rice?"
+        ],
+        "responses": [
+            "To make Fried Rice: 1. Heat oil and sauté chopped vegetables. 2. Add cooked rice, soy sauce, and a pinch of salt. Stir well and serve hot."
+        ]
+    },
+    {
+        "tag": "quick_dal_tadka_recipe",
+        "patterns": [
+            "How do I make Quick Dal Tadka?",
+            "What’s the recipe for Quick Dal Tadka?"
+        ],
+        "responses": [
+            "To make Quick Dal Tadka: 1. Cook lentils with water and turmeric until soft. 2. In a separate pan, heat oil and temper with cumin seeds, garlic, and red chili. Pour over the dal and serve with rice."
+        ]
+    },
+    {
+        "tag": "quick_breakfast",
+        "patterns": [
+            "What’s a quick breakfast recipe?",
+            "Suggest a breakfast I can make quickly",
+            "I need a fast breakfast idea"
+        ],
+        "responses": [
+            "You can try Oats Porridge, Avocado Toast, or a Banana Smoothie. Want a recipe?",
+            "How about Poha, Upma, or Overnight Chia Pudding? Let me know which one you’d like!"
+        ]
+    },
+    {
+        "tag": "oats_porridge_recipe",
+        "patterns": [
+            "How do I make Oats Porridge?",
+            "What’s the recipe for Oats Porridge?"
+        ],
+        "responses": [
+            "To make Oats Porridge: 1. Cook oats with milk or water on medium heat. 2. Add honey, fruits, or nuts for flavor. Serve warm."
+        ]
+    },
+    {
+        "tag": "banana_smoothie_recipe",
+        "patterns": [
+            "How do I make a Banana Smoothie?",
+            "What’s the recipe for a Banana Smoothie?"
+        ],
+        "responses": [
+            "To make a Banana Smoothie: 1. Blend a ripe banana with milk or yogurt. 2. Add a teaspoon of honey or cinnamon for extra flavor. Serve chilled."
+        ]
+    },
+    {
+        "tag": "poha_recipe",
+        "patterns": [
+            "How do I make Poha?",
+            "What’s the recipe for Poha?"
+        ],
+        "responses": [
+            "To make Poha: 1. Rinse flattened rice and set aside. 2. Sauté mustard seeds, curry leaves, onions, and green chilies. 3. Add the poha, turmeric, and salt. Stir well and garnish with coriander and lemon juice."
+        ]
+    },                                                                                           
+    {
+        "tag": "popular_recipes",
+        "patterns": [
+            "What are some popular recipes?",
+            "Suggest me something famous",
+            "What are people cooking these days?"
+        ],
+        "responses": [
+            "Some popular dishes are Spaghetti Bolognese, Grilled Chicken, and Chocolate Cake. Which one would you like to try?",
+            "You might enjoy trying Butter Chicken, Veggie Stir-fry, or Pancakes. Let me know which recipe to share!"
+        ]
+    },
+    {
+        "tag": "diet_recipes",
+        "patterns": [
+            "I want a healthy recipe",
+            "Give me a low-calorie dish",
+            "Do you have diet-friendly options?"
+        ],
+        "responses": [
+            "How about a Grilled Chicken Salad or Quinoa Bowl? I can share the recipe!",
+            "Try a Smoothie Bowl or Steamed Veggies with Hummus. Want the details?"
+        ]
+    },
+    {
+        "tag": "breakfast_recipes",
+        "patterns": [
+            "Suggest a breakfast recipe",
+            "What should I make for breakfast?",
+            "Give me ideas for a quick breakfast"
+        ],
+        "responses": [
+            "You can try making Pancakes, Omelette, or Smoothie Bowls. Want recipes for any of these?",
+            "How about Avocado Toast, Scrambled Eggs, or French Toast? Let me know which recipe you want!"
+        ]
+    },
+    {
+        "tag": "pancake_recipe",
+        "patterns": [
+            "How do I make pancakes?",
+            "Give me a pancake recipe"
+        ],
+        "responses": [
+            "To make pancakes: 1. Mix 1 cup of flour, 2 tbsp sugar, 1 tsp baking powder, and a pinch of salt. 2. Add 1 cup milk, 1 egg, and 2 tbsp melted butter. 3. Cook on a hot griddle until golden brown. Enjoy!"
+        ]
+    },
+    {
+        "tag": "smoothie_bowl_recipe",
+        "patterns": [
+            "What’s a good smoothie bowl recipe?",
+            "How do I make a smoothie bowl?"
+        ],
+        "responses": [
+            "Blend 1 cup frozen berries, 1 banana, and 1/2 cup yogurt until smooth. Pour into a bowl and top with granola, fresh fruit, and nuts!"
+        ]
+    },{
+        "tag": "lunch_recipes",
+        "patterns": [
+            "What should I make for lunch?",
+            "Suggest a lunch recipe",
+            "Give me ideas for a hearty lunch"
+        ],
+        "responses": [
+            "For lunch, you can make Grilled Chicken Salad, Veggie Stir-Fry, or Spaghetti Bolognese. Need help with any recipe?",
+            "How about Chicken Curry, Quinoa Salad, or a classic Sandwich? Let me know which recipe to share!"
+        ]
+    },
+    {
+        "tag": "spaghetti_recipe",
+        "patterns": [
+            "How do I make Spaghetti Bolognese?",
+            "Give me the recipe for spaghetti"
+        ],
+        "responses": [
+            "To make Spaghetti Bolognese: 1. Cook spaghetti as per package instructions. 2. Sauté garlic, onion, and minced meat. 3. Add tomato sauce, herbs, and spices. 4. Mix with spaghetti and serve!"
+        ]
+    },
+    {
+        "tag": "grilled_chicken_salad_recipe",
+        "patterns": [
+            "What’s the recipe for grilled chicken salad?",
+            "How do I make chicken salad?"
+        ],
+        "responses": [
+            "To make Grilled Chicken Salad: 1. Grill a chicken breast seasoned with salt and pepper. 2. Toss mixed greens, cherry tomatoes, cucumber, and avocado in a bowl. 3. Top with sliced chicken and your favorite dressing."
+        ]
+    },
+    {
+        "tag": "dinner_recipes",
+        "patterns": [
+            "What should I make for dinner?",
+            "Suggest an easy dinner recipe",
+            "Any dinner ideas?"
+        ],
+        "responses": [
+            "For dinner, you can make Butter Chicken, Veggie Curry, or Grilled Salmon. Let me know if you need detailed recipes!",
+            "How about Tacos, Pasta Alfredo, or a Stir-Fry? I can provide step-by-step instructions!"
+        ]
+    },
+    {
+        "tag": "butter_chicken_recipe",
+        "patterns": [
+            "How do I make Butter Chicken?",
+            "Give me the recipe for Butter Chicken"
+        ],
+        "responses": [
+            "To make Butter Chicken: 1. Marinate chicken in yogurt and spices. 2. Sauté onions, tomatoes, and garlic. 3. Blend into a smooth sauce and add cream. 4. Cook chicken in the sauce and serve with naan or rice!"
+        ]
+    },
+    {
+        "tag": "pasta_alfredo_recipe",
+        "patterns": [
+            "What’s the recipe for Alfredo Pasta?",
+            "How do I make Pasta Alfredo?"
+        ],
+        "responses": [
+            "To make Pasta Alfredo: 1. Cook pasta until al dente. 2. Sauté garlic in butter, then add cream and Parmesan cheese. 3. Mix with pasta and garnish with parsley."
+        ]
+    },
+    {
+        "tag": "desserts",
+        "patterns": [
+            "What dessert should I make?",
+            "Suggest a dessert recipe",
+            "Any ideas for sweets?"
+        ],
+        "responses": [
+            "How about Chocolate Cake, Brownies, or Tiramisu? Let me know which recipe to share!",
+            "You can try Ice Cream, Fruit Custard, or Apple Pie. Want detailed instructions?"
+        ]
+    },
+    {
+        "tag": "brownie_recipe",
+        "patterns": [
+            "How do I make brownies?",
+            "What’s the recipe for brownies?"
+        ],
+        "responses": [
+            "To make Brownies: 1. Melt 1/2 cup butter and mix with 1 cup sugar and 2 eggs. 2. Add 1/3 cup cocoa powder, 1/2 cup flour, and a pinch of salt. 3. Bake at 350°F (175°C) for 25 minutes. Enjoy!"
+        ]
+    },
+    {
+        "tag": "fruit_custard_recipe",
+        "patterns": [
+            "How to make fruit custard?",
+            "What’s the recipe for fruit custard?"
+        ],
+        "responses": [
+            "To make Fruit Custard: 1. Mix custard powder with milk and sugar and cook until thick. 2. Chill and add diced fruits like apples, bananas, and grapes. Serve cold!"
+        ]
+    },
+    {
+        "tag": "snacks",
+        "patterns": [
+            "What can I make for a snack?",
+            "Suggest a quick snack recipe",
+            "Any ideas for evening snacks?"
+        ],
+        "responses": [
+            "Try making Sandwiches, Nachos, or Garlic Bread! Let me know which one interests you.",
+            "You can make Popcorn, Cheese Sticks, or Veggie Rolls. Need recipes for any of these?"
+        ]
+    },
+    {
+        "tag": "garlic_bread_recipe",
+        "patterns": [
+            "How do I make garlic bread?",
+            "What’s the recipe for garlic bread?"
+        ],
+        "responses": [
+            "To make Garlic Bread: 1. Mix butter with minced garlic and parsley. 2. Spread on bread slices and bake at 375°F (190°C) until golden."
+        ]
+    },
+    {
+        "tag": "veggie_rolls_recipe",
+        "patterns": [
+            "How to make veggie rolls?",
+            "What’s the recipe for veggie rolls?"
+        ],
+        "responses": [
+            "To make Veggie Rolls: 1. Stir-fry chopped vegetables with spices. 2. Wrap in tortillas and grill until crispy. Serve with dipping sauce!"
+        ]
+    },
+    {
+        "tag": "unique_breakfast_recipes",
+        "patterns": [
+            "Suggest a unique breakfast idea",
+            "What’s an unusual breakfast recipe?",
+            "Any unique breakfast suggestions?"
+        ],
+        "responses": [
+            "Try Shakshuka, Chia Pudding, or Sweet Potato Hash. Let me know which one interests you!",
+            "You can make Savory Pancakes, Breakfast Burritos, or Croissant Sandwiches. Need details?"
+        ]
+    },
+    {
+        "tag": "shakshuka_recipe",
+        "patterns": [
+            "How do I make shakshuka?",
+            "What’s the recipe for shakshuka?"
+        ],
+        "responses": [
+            "To make Shakshuka: 1. Sauté onions, garlic, and bell peppers in olive oil. 2. Add tomatoes, paprika, and cumin. 3. Make wells in the sauce, crack eggs into them, and cook until eggs are set. Serve with crusty bread."
+        ]
+    },
+    {
+        "tag": "chia_pudding_recipe",
+        "patterns": [
+            "How do I make chia pudding?",
+            "What’s a good chia pudding recipe?"
+        ],
+        "responses": [
+            "To make Chia Pudding: 1. Mix 1/4 cup chia seeds with 1 cup almond milk and 1 tbsp honey. 2. Let it sit overnight. 3. Top with fresh fruits and nuts before serving!"
+        ]
+    },
+    {
+        "tag": "unique_lunch_recipes",
+        "patterns": [
+            "What’s a unique lunch recipe?",
+            "Suggest something different for lunch",
+            "Any creative lunch ideas?"
+        ],
+        "responses": [
+            "Try Buddha Bowls, Sushi Rolls, or Korean Bibimbap. Want recipes for any of these?",
+            "You can make Stuffed Bell Peppers, Lentil Soup, or a Mediterranean Wrap. Let me know which one interests you!"
+        ]
+    },
+    {
+        "tag": "buddha_bowl_recipe",
+        "patterns": [
+            "How do I make a Buddha Bowl?",
+            "What’s the recipe for Buddha Bowls?"
+        ],
+        "responses": [
+            "To make a Buddha Bowl: 1. Start with a base of quinoa or rice. 2. Add roasted veggies, leafy greens, and protein like chickpeas or tofu. 3. Top with avocado and a tahini dressing."
+        ]
+    },
+    {
+        "tag": "bibimbap_recipe",
+        "patterns": [
+            "What’s the recipe for Bibimbap?",
+            "How do I make Korean Bibimbap?"
+        ],
+        "responses": [
+            "To make Bibimbap: 1. Cook rice and sauté assorted veggies (spinach, carrots, mushrooms). 2. Add bulgogi beef or tofu. 3. Top with a fried egg and gochujang sauce."
+        ]
+    },
+    {
+        "tag": "unique_dinner_recipes",
+        "patterns": [
+            "What’s a unique dinner recipe?",
+            "Suggest something different for dinner",
+            "Any creative dinner ideas?"
+        ],
+        "responses": [
+            "For dinner, try Ratatouille, Thai Green Curry, or Moroccan Tagine. Let me know which recipe you’d like!",
+            "How about Stuffed Zucchini Boats, Eggplant Parmesan, or Ramen Bowls? I can provide recipes for these!"
+        ]
+    },
+    {
+        "tag": "ratatouille_recipe",
+        "patterns": [
+            "How do I make Ratatouille?",
+            "What’s the recipe for Ratatouille?"
+        ],
+        "responses": [
+            "To make Ratatouille: 1. Slice zucchini, eggplant, and tomatoes thinly. 2. Layer them in a baking dish over tomato sauce. 3. Drizzle with olive oil, sprinkle herbs, and bake at 375°F (190°C) until tender."
+        ]
+    },
+    {
+        "tag": "thai_green_curry_recipe",
+        "patterns": [
+            "How do I make Thai Green Curry?",
+            "What’s the recipe for Green Curry?"
+        ],
+        "responses": [
+            "To make Thai Green Curry: 1. Sauté green curry paste in coconut oil. 2. Add coconut milk, veggies, and protein like chicken or tofu. 3. Simmer and serve with jasmine rice."
+        ]
+    },
+    {
+        "tag": "unique_snacks",
+        "patterns": [
+            "Suggest unique snack ideas",
+            "What’s a creative snack recipe?",
+            "Any unusual snacks?"
+        ],
+        "responses": [
+            "You can try Stuffed Mushrooms, Falafel Balls, or Zucchini Fries. Let me know which one you’d like!",
+            "How about Baked Sweet Potato Chips, Hummus with Veggie Sticks, or Mini Quiches? Need recipes for any of these?"
+        ]
+    },
+    {
+        "tag": "stuffed_mushrooms_recipe",
+        "patterns": [
+            "How do I make Stuffed Mushrooms?",
+            "What’s the recipe for Stuffed Mushrooms?"
+        ],
+        "responses": [
+            "To make Stuffed Mushrooms: 1. Remove stems from mushrooms and fill caps with a mix of cream cheese, garlic, and herbs. 2. Bake at 375°F (190°C) for 20 minutes."
+        ]
+    },
+    {
+        "tag": "zucchini_fries_recipe",
+        "patterns": [
+            "How do I make Zucchini Fries?",
+            "What’s the recipe for Zucchini Fries?"
+        ],
+        "responses": [
+            "To make Zucchini Fries: 1. Cut zucchini into sticks. 2. Coat with breadcrumbs and Parmesan. 3. Bake at 400°F (200°C) for 25 minutes until crispy."
+        ]
+    },
+    {
+        "tag": "unique_desserts",
+        "patterns": [
+            "Suggest unique dessert ideas",
+            "What’s a creative dessert recipe?",
+            "Any unusual desserts?"
+        ],
+        "responses": [
+            "You can try Matcha Cheesecake, Lava Cake, or Banoffee Pie. Want a recipe for any of these?",
+            "How about Lemon Bars, Eclairs, or Coconut Macaroons? Let me know which recipe you want!"
+        ]
+    },
+    {
+        "tag": "lava_cake_recipe",
+        "patterns": [
+            "How do I make Lava Cake?",
+            "What’s the recipe for Lava Cake?"
+        ],
+        "responses": [
+            "To make Lava Cake: 1. Melt chocolate and butter together. 2. Mix in eggs, sugar, and a little flour. 3. Bake in ramekins at 425°F (220°C) for 10 minutes. The center should remain gooey!"
+        ]
+    },
+    {
+        "tag": "banoffee_pie_recipe",
+        "patterns": [
+            "How do I make Banoffee Pie?",
+            "What’s the recipe for Banoffee Pie?"
+        ],
+        "responses": [
+            "To make Banoffee Pie: 1. Layer a graham cracker crust with dulce de leche, sliced bananas, and whipped cream. 2. Chill and serve!"
+        ]
+    }                                        
+]
